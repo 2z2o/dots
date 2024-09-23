@@ -1,0 +1,149 @@
+@import url("/home/tor/.cache/wal/colors-waybar.css");
+
+* {
+    border-radius: 5px;
+	/* border-width: 2px; */
+	/* border-style: solid; */
+	/* border-color: @background; */
+    font-family: 'PowerlineSymbols', 'JetBrainsMono Nerd Font';
+    font-size: 12pt;
+    min-height: 0;
+	color: #000000;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-width: 0px;
+}
+
+#bar > * {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#bar {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#custom-les, #custom-ris {
+	font-family: 'PowerlineSymbols', 'JetBrainsMono Nerd Font';
+	color: @color1;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+window#waybar {
+	background: @color4;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+tooltip {
+	background: #FFFFFF;
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #a4b9ef;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	}
+
+#workspaces {
+    background: @color1;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px 0px 0px 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#workspaces button {
+	margin-left: 0px;
+	margin-right: 0px;
+    min-width: 0;
+    color: @foreground;
+	background-color: @color1;
+	border-radius: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#workspaces button.current_output {
+    color: #A4B9EF;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#workspaces button.urgent {
+    color: #F9C096;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#workspaces button:hover {
+    background: @color1;
+    border-color: @color3;
+	color: @foreground;
+	border-radius: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#clock, #battery, #pulseaudio, #mpd, #window {
+    background: alpha(@color1, 1.0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+	padding: 0px 10px;
+}
+
+#pulseaudio {
+    border-radius: 0px 0px 0px 0px;
+	padding-right: 10px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#network {
+    padding-left: 2px;
+    padding-right: 0px;
+    background: alpha(@color1, 1.0);
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#custom-vpn {
+    background: #332E41;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#clock {
+    padding-right: 5px;
+    margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    border-radius: 0px 0px 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#battery {
+	border-radius: 0px 0px 0px 0px;
+	padding-left: 10px;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
